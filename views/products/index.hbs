@@ -1,0 +1,27 @@
+ {{#each gener}}
+ 	ddd
+ {{/each}}
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <table class="table">
+    <thead>
+      <tr>
+        <th>Serical NO.</th>
+        <th>Gener Name</th>
+        <th>Edit /Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each gener}}
+      <tr>
+        <td>++</td>
+        <td>{{this.name}}</td>
+        <td>edit/delete</td>
+      </tr>
+      {{/each}}
+      </tbody>
+    </table>
+
+  </div>
+</div>
